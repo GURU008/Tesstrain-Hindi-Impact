@@ -1,0 +1,1429 @@
+ubuntu@tesseract-ocr:~/tesstrain-hindi$ bash runall.sh jaspreet1
+
+./jaspreet1/sample1
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+
+./jaspreet1/sample2
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+
+./jaspreet1/sample3
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+
+./jaspreet1/sample4
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+
+./jaspreet1/sample5
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+
+./jaspreet1/sample6
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+
+./jaspreet1/sample7
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+
+./jaspreet1/sample8
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+
+./jaspreet1/sample9
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+Tesseract Open Source OCR Engine v5.0.0-alpha-556-g0823 with Leptonica
+--2019-12-30 09:31:50--  https://github.com/tesseract-ocr/langdata_lstm/raw/master/hin/hin.config
+Resolving github.com (github.com)... 192.30.255.113
+Connecting to github.com (github.com)|192.30.255.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/master/hin/hin.config [following]
+--2019-12-30 09:31:50--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/master/hin/hin.config
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.52.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.52.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 633 [text/plain]
+Saving to: ‘hinjaspreet1.config’
+
+hinjaspreet1.config                               100%[==========================================================================================================>]     633  --.-KB/s    in 0s
+
+2019-12-30 09:31:50 (153 MB/s) - ‘hinjaspreet1.config’ saved [633/633]
+
+--2019-12-30 09:31:50--  https://github.com/tesseract-ocr/langdata_lstm/raw/master/hin/hin.numbers
+Resolving github.com (github.com)... 192.30.255.113
+Connecting to github.com (github.com)|192.30.255.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/master/hin/hin.numbers [following]
+--2019-12-30 09:31:51--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/master/hin/hin.numbers
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.52.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.52.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 126 [text/plain]
+Saving to: ‘hinjaspreet1.numbers’
+
+hinjaspreet1.numbers                              100%[==========================================================================================================>]     126  --.-KB/s    in 0s
+
+2019-12-30 09:31:51 (28.1 MB/s) - ‘hinjaspreet1.numbers’ saved [126/126]
+
+--2019-12-30 09:31:51--  https://github.com/tesseract-ocr/langdata_lstm/raw/master/hin/hin.punc
+Resolving github.com (github.com)... 192.30.255.113
+Connecting to github.com (github.com)|192.30.255.113|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/master/hin/hin.punc [following]
+--2019-12-30 09:31:51--  https://raw.githubusercontent.com/tesseract-ocr/langdata_lstm/master/hin/hin.punc
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.52.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.52.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2746 (2.7K) [text/plain]
+Saving to: ‘hinjaspreet1.punc’
+
+hinjaspreet1.punc                                 100%[==========================================================================================================>]   2.68K  --.-KB/s    in 0s
+
+2019-12-30 09:31:51 (34.2 MB/s) - ‘hinjaspreet1.punc’ saved [2746/2746]
+
+Extracting tessdata components from /home/ubuntu/tessdata_best/script/Devanagari.traineddata
+Wrote /home/ubuntu/tesstrain-hindi/data/script/Devanagari/hinjaspreet1.lstm
+Version string:4.00.00alpha:Devanagari:synth20170629test
+
+0:config:size=552, offset=192
+17:lstm:size=11040731, offset=744
+18:lstm-punc-dawg:size=5210, offset=11041475
+19:lstm-word-dawg:size=17494186, offset=11046685
+20:lstm-number-dawg:size=5098, offset=28540871
+21:lstm-unicharset:size=13692, offset=28545969
+22:lstm-recoder:size=1957, offset=28559661
+23:version:size=42, offset=28561618
+Bad box coordinates in boxfile string! देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+Extracting unicharset from plain text file data/hinjaspreet1/all-gt
+Wrote unicharset file data/hinjaspreet1/unicharset
++ head -n 8 data/hinjaspreet1/all-lstmf
++ tail -n 1 data/hinjaspreet1/all-lstmf
++ head -n 8 data/hinjaspreet1/all-lstmf
++ tail -n 1 data/hinjaspreet1/all-lstmf
+Loaded file data/script/Devanagari/hinjaspreet1.lstm, unpacking...
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Continuing from data/script/Devanagari/hinjaspreet1.lstm
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf
+Loaded 16/16 lines (1-16) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf
+Loaded 12/12 lines (1-12) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf
+Loaded 13/13 lines (1-13) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf
+Iteration 0: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 0 (Perfect):
+Mean rms=0.111%, delta=0%, train=0%(0%), skip ratio=0%
+Iteration 1: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+Iteration 1: BEST OCR TEXT : २३°®° निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 0 :
+Mean rms=0.485%, delta=1.254%, train=3.086%(2.632%), skip ratio=0%
+Iteration 2: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 0 (Perfect):
+Mean rms=0.408%, delta=0.836%, train=2.058%(1.754%), skip ratio=0%
+Iteration 3: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+Iteration 3: BEST OCR TEXT : १ रर्खें तो हर्में इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 0 :
+Mean rms=0.556%, delta=1.205%, train=3.014%(5.482%), skip ratio=0%
+Iteration 4: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+Iteration 4: BEST OCR TEXT : यदि उर्द और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 0 :
+Mean rms=0.528%, delta=1.087%, train=2.658%(5.636%), skip ratio=0%
+Iteration 5: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 0 (Perfect):
+Mean rms=0.48%, delta=0.906%, train=2.215%(4.697%), skip ratio=0%
+Iteration 6: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+Iteration 6: BEST OCR TEXT : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है। यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 0 :
+Mean rms=0.481%, delta=0.873%, train=2.065%(5.454%), skip ratio=0%
+Iteration 7: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 0 :
+Mean rms=0.463%, delta=0.832%, train=1.807%(4.772%), skip ratio=0%
+Iteration 8: GROUND  TRUTH : आवश्यकताओं की पूर्ति नहीं कर सकीं और इसीलिए संयुक्त रूप में स्वयं ही उनका संयोग
+Iteration 8: BEST OCR TEXT : आवश्यकताओं की पूर्ति नहीं कर सकीं और इसीलिए संयुक्‍्त रूप में स्वयं ही उनका संयोग
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 1 :
+Mean rms=0.463%, delta=0.805%, train=1.887%(4.983%), skip ratio=0%
+Iteration 9: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+Iteration 9: BEST OCR TEXT : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कृछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 1 :
+Mean rms=0.481%, delta=0.796%, train=1.948%(5.073%), skip ratio=0%
+Iteration 10: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+Iteration 10: BEST OCR TEXT : कठिन शब्दों से लदी हृई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 1 :
+Mean rms=0.471%, delta=0.781%, train=2.001%(5.146%), skip ratio=0%
+Iteration 11: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 1 (Perfect):
+Mean rms=0.447%, delta=0.716%, train=1.835%(4.718%), skip ratio=0%
+Iteration 12: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 1 (Perfect):
+Mean rms=0.428%, delta=0.661%, train=1.694%(4.355%), skip ratio=0%
+Iteration 13: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+Iteration 13: BEST OCR TEXT : नहीं हैं । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 1 :
+Mean rms=0.442%, delta=0.669%, train=1.686%(4.49%), skip ratio=0%
+Iteration 14: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+Iteration 14: BEST OCR TEXT : मराठी, गुजराती, तमिल, तेलगृ और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 1 :
+Mean rms=0.445%, delta=0.668%, train=1.74%(4.667%), skip ratio=0%
+Iteration 15: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 1 (Perfect):
+Mean rms=0.423%, delta=0.626%, train=1.631%(4.375%), skip ratio=0%
+Iteration 16: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 2 (Perfect):
+Mean rms=0.409%, delta=0.589%, train=1.535%(4.118%), skip ratio=0%
+Iteration 17: GROUND  TRUTH : मतलब न समझ सकें । हमारी राष्ट्रीय भाषा तो वही हो सकती है जिसका आधार सर्व-
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 2 (Perfect):
+Mean rms=0.398%, delta=0.556%, train=1.45%(3.889%), skip ratio=0%
+Iteration 18: GROUND  TRUTH : मतलब न समझ सकें । हमारी राष्ट्रीय भाषा तो वही हो सकती है जिसका आधार सर्व-
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 2 (Perfect):
+Mean rms=0.385%, delta=0.527%, train=1.374%(3.684%), skip ratio=0%
+Iteration 19: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 2 (Perfect):
+Mean rms=0.375%, delta=0.501%, train=1.305%(3.5%), skip ratio=0%
+Iteration 20: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 2 (Perfect):
+Mean rms=0.362%, delta=0.477%, train=1.243%(3.334%), skip ratio=0%
+Iteration 21: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 2 (Perfect):
+Mean rms=0.352%, delta=0.455%, train=1.187%(3.182%), skip ratio=0%
+Iteration 22: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+Iteration 22: BEST OCR TEXT : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कुछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 2 (Perfect):
+Mean rms=0.35%, delta=0.435%, train=1.245%(3.299%), skip ratio=0%
+Iteration 23: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+Iteration 23: BEST OCR TEXT : २५ जा सकता, जब तक हम हिंदुस्तान को उर्दस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 2 :
+Mean rms=0.364%, delta=0.483%, train=1.34%(3.625%), skip ratio=0%
+Iteration 24: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+Iteration 24: BEST OCR TEXT : १९ ररखें तो हर्में इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 3 :
+Mean rms=0.388%, delta=0.536%, train=1.522%(4.147%), skip ratio=0%
+Iteration 25: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 3 (Perfect):
+Mean rms=0.379%, delta=0.515%, train=1.463%(3.987%), skip ratio=0%
+Iteration 26: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 3 (Perfect):
+Mean rms=0.375%, delta=0.496%, train=1.409%(3.839%), skip ratio=0%
+Iteration 27: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 3 (Perfect):
+Mean rms=0.365%, delta=0.479%, train=1.359%(3.702%), skip ratio=0%
+Iteration 28: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 3 (Perfect):
+Mean rms=0.358%, delta=0.462%, train=1.312%(3.575%), skip ratio=0%
+Iteration 29: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 3 (Perfect):
+Mean rms=0.349%, delta=0.447%, train=1.268%(3.455%), skip ratio=0%
+Iteration 30: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 3 (Perfect):
+Mean rms=0.344%, delta=0.432%, train=1.227%(3.344%), skip ratio=0%
+Iteration 31: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 3 (Perfect):
+Mean rms=0.342%, delta=0.419%, train=1.189%(3.24%), skip ratio=0%
+Iteration 32: GROUND  TRUTH : राष्ट्रीय भाषा न तो वह उर्दू ही हो सकती है जो अरबी और फारसी के अप्रचलित तथा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 4 (Perfect):
+Mean rms=0.336%, delta=0.406%, train=1.153%(3.141%), skip ratio=0%
+Iteration 33: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 4 (Perfect):
+Mean rms=0.33%, delta=0.394%, train=1.119%(3.049%), skip ratio=0%
+Iteration 34: GROUND  TRUTH : बहुत ठीक तौर पर हिंदुस्तानी ज़बान कहते हैं । वास्तविक बात तो यह है कि भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 4 (Perfect):
+Mean rms=0.325%, delta=0.383%, train=1.087%(2.962%), skip ratio=0%
+Iteration 35: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 4 (Perfect):
+Mean rms=0.322%, delta=0.372%, train=1.057%(2.88%), skip ratio=0%
+Iteration 36: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 4 (Perfect):
+Mean rms=0.319%, delta=0.362%, train=1.028%(2.802%), skip ratio=0%
+Iteration 37: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 4 (Perfect):
+Mean rms=0.314%, delta=0.353%, train=1.001%(2.728%), skip ratio=0%
+Iteration 38: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 4 (Perfect):
+Mean rms=0.31%, delta=0.344%, train=0.976%(2.658%), skip ratio=0%
+Iteration 39: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 4 (Perfect):
+Mean rms=0.304%, delta=0.335%, train=0.951%(2.592%), skip ratio=0%
+Iteration 40: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 5 (Perfect):
+Mean rms=0.301%, delta=0.327%, train=0.928%(2.528%), skip ratio=0%
+Iteration 41: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 5 (Perfect):
+Mean rms=0.297%, delta=0.319%, train=0.906%(2.468%), skip ratio=0%
+Iteration 42: GROUND  TRUTH : आवश्यकताओं की पूर्ति नहीं कर सकीं और इसीलिए संयुक्त रूप में स्वयं ही उनका संयोग
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 5 (Perfect):
+Mean rms=0.298%, delta=0.312%, train=0.885%(2.411%), skip ratio=0%
+Iteration 43: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 5 (Perfect):
+Mean rms=0.297%, delta=0.305%, train=0.865%(2.356%), skip ratio=0%
+Iteration 44: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 5 (Perfect):
+Mean rms=0.293%, delta=0.298%, train=0.845%(2.304%), skip ratio=0%
+Iteration 45: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 5 :
+Mean rms=0.294%, delta=0.297%, train=0.827%(2.254%), skip ratio=0%
+Iteration 46: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 5 (Perfect):
+Mean rms=0.291%, delta=0.291%, train=0.81%(2.206%), skip ratio=0%
+Iteration 47: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 5 (Perfect):
+Mean rms=0.289%, delta=0.285%, train=0.793%(2.16%), skip ratio=0%
+Iteration 48: GROUND  TRUTH : २० अपरिचित शब्दों के भार से लदी रहती है और न वह हिंदी ही हो सकती है जो संस्कृत के
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 6 :
+Mean rms=0.289%, delta=0.285%, train=0.776%(2.116%), skip ratio=0%
+Iteration 49: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 6 (Perfect):
+Mean rms=0.286%, delta=0.279%, train=0.761%(2.073%), skip ratio=0%
+Iteration 50: GROUND  TRUTH : राष्ट्रीय भाषा न तो वह उर्दू ही हो सकती है जो अरबी और फारसी के अप्रचलित तथा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 6 (Perfect):
+Mean rms=0.283%, delta=0.273%, train=0.746%(2.033%), skip ratio=0%
+Iteration 51: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 6 (Perfect):
+Mean rms=0.28%, delta=0.268%, train=0.732%(1.994%), skip ratio=0%
+Iteration 52: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 6 (Perfect):
+Mean rms=0.277%, delta=0.263%, train=0.718%(1.956%), skip ratio=0%
+Iteration 53: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 6 (Perfect):
+Mean rms=0.277%, delta=0.258%, train=0.705%(1.92%), skip ratio=0%
+Iteration 54: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+Iteration 54: BEST OCR TEXT : 1% रखें तो हमें इनकी प्राकृतिक वद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 6 :
+Mean rms=0.287%, delta=0.276%, train=0.799%(2.087%), skip ratio=0%
+Iteration 55: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 6 (Perfect):
+Mean rms=0.283%, delta=0.271%, train=0.784%(2.05%), skip ratio=0%
+Iteration 56: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+Iteration 56: BEST OCR TEXT : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कृछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 7 :
+Mean rms=0.289%, delta=0.29%, train=0.815%(2.117%), skip ratio=0%
+Iteration 57: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 7 (Perfect):
+Mean rms=0.287%, delta=0.285%, train=0.8%(2.08%), skip ratio=0%
+Iteration 58: GROUND  TRUTH : २० अपरिचित शब्दों के भार से लदी रहती है और न वह हिंदी ही हो सकती है जो संस्कृत के
+Iteration 58: BEST OCR TEXT : २% अपरिचित शब्दों के भार से लदी रहती है और न वह हिंदी ही हो सकती है जो संस्कृत के
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 7 :
+Mean rms=0.289%, delta=0.285%, train=0.829%(2.13%), skip ratio=0%
+Iteration 59: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 7 (Perfect):
+Mean rms=0.288%, delta=0.281%, train=0.815%(2.094%), skip ratio=0%
+Iteration 60: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 7 (Perfect):
+Mean rms=0.287%, delta=0.276%, train=0.802%(2.06%), skip ratio=0%
+Iteration 61: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 7 (Perfect):
+Mean rms=0.284%, delta=0.272%, train=0.789%(2.027%), skip ratio=0%
+Iteration 62: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+Iteration 62: BEST OCR TEXT : उन्नति और विकास के मार्ग में बाघक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 7 :
+Mean rms=0.286%, delta=0.278%, train=0.817%(2.088%), skip ratio=0%
+Iteration 63: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 7 (Perfect):
+Mean rms=0.284%, delta=0.274%, train=0.804%(2.055%), skip ratio=0%
+Iteration 64: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 8 (Perfect):
+Mean rms=0.281%, delta=0.27%, train=0.792%(2.024%), skip ratio=0%
+Iteration 65: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 8 (Perfect):
+Mean rms=0.28%, delta=0.266%, train=0.78%(1.993%), skip ratio=0%
+Iteration 66: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 8 (Perfect):
+Mean rms=0.277%, delta=0.262%, train=0.768%(1.963%), skip ratio=0%
+Iteration 67: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 8 :
+Mean rms=0.278%, delta=0.262%, train=0.757%(1.934%), skip ratio=0%
+Iteration 68: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 8 (Perfect):
+Mean rms=0.277%, delta=0.259%, train=0.746%(1.906%), skip ratio=0%
+Iteration 69: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 8 (Perfect):
+Mean rms=0.275%, delta=0.255%, train=0.735%(1.879%), skip ratio=0%
+Iteration 70: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 8 (Perfect):
+Mean rms=0.275%, delta=0.251%, train=0.725%(1.853%), skip ratio=0%
+Iteration 71: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 8 (Perfect):
+Mean rms=0.273%, delta=0.248%, train=0.715%(1.827%), skip ratio=0%
+Iteration 72: GROUND  TRUTH : और मेल आरम्भ हो गया । और दोनों का वह सम्मिलित स्वरूप उत्पन्न हो गया जिसे हम
+Iteration 72: BEST OCR TEXT : और मेंल आरम्भ हो गया । और दोनों का वह सम्मिलित स्वरूप उत्पन्न हो गया जिसे हम
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 9 :
+Mean rms=0.274%, delta=0.252%, train=0.723%(1.882%), skip ratio=0%
+Iteration 73: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 9 (Perfect):
+Mean rms=0.274%, delta=0.249%, train=0.713%(1.857%), skip ratio=0%
+Iteration 74: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 9 (Perfect):
+Mean rms=0.275%, delta=0.245%, train=0.704%(1.832%), skip ratio=0%
+Iteration 75: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 9 (Perfect):
+Mean rms=0.273%, delta=0.242%, train=0.695%(1.808%), skip ratio=0%
+Iteration 76: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 9 (Perfect):
+Mean rms=0.271%, delta=0.239%, train=0.686%(1.785%), skip ratio=0%
+Iteration 77: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 9 (Perfect):
+Mean rms=0.269%, delta=0.236%, train=0.677%(1.762%), skip ratio=0%
+Iteration 78: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 9 (Perfect):
+Mean rms=0.269%, delta=0.233%, train=0.668%(1.74%), skip ratio=0%
+Iteration 79: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 9 (Perfect):
+Mean rms=0.267%, delta=0.23%, train=0.66%(1.718%), skip ratio=0%
+Iteration 80: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 10 (Perfect):
+Mean rms=0.266%, delta=0.227%, train=0.652%(1.697%), skip ratio=0%
+Iteration 81: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 10 (Perfect):
+Mean rms=0.265%, delta=0.224%, train=0.644%(1.676%), skip ratio=0%
+Iteration 82: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 10 (Perfect):
+Mean rms=0.263%, delta=0.222%, train=0.636%(1.656%), skip ratio=0%
+Iteration 83: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+Iteration 83: BEST OCR TEXT : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पढुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 10 :
+Mean rms=0.265%, delta=0.226%, train=0.657%(1.706%), skip ratio=0%
+Iteration 84: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 10 (Perfect):
+Mean rms=0.263%, delta=0.224%, train=0.649%(1.686%), skip ratio=0%
+Iteration 85: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+Iteration 85: BEST OCR TEXT : २५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 10 :
+Mean rms=0.266%, delta=0.228%, train=0.669%(1.731%), skip ratio=0%
+Iteration 86: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+Iteration 86: BEST OCR TEXT : 1५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 10 :
+Mean rms=0.27%, delta=0.243%, train=0.688%(1.783%), skip ratio=0%
+Iteration 87: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 10 (Perfect):
+Mean rms=0.269%, delta=0.24%, train=0.68%(1.763%), skip ratio=0%
+Iteration 88: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 11 (Perfect):
+Mean rms=0.267%, delta=0.237%, train=0.673%(1.743%), skip ratio=0%
+Iteration 89: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 11 (Perfect):
+Mean rms=0.266%, delta=0.235%, train=0.665%(1.723%), skip ratio=0%
+Iteration 90: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+Iteration 90: BEST OCR TEXT : समझ सकते हैं या नहीं ? आऔर जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 11 (Perfect):
+Mean rms=0.266%, delta=0.232%, train=0.674%(1.789%), skip ratio=0%
+Iteration 91: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 11 (Perfect):
+Mean rms=0.265%, delta=0.23%, train=0.666%(1.77%), skip ratio=0%
+Iteration 92: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 11 (Perfect):
+Mean rms=0.263%, delta=0.227%, train=0.659%(1.751%), skip ratio=0%
+Iteration 93: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 11 (Perfect):
+Mean rms=0.261%, delta=0.225%, train=0.652%(1.732%), skip ratio=0%
+Iteration 94: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 11 (Perfect):
+Mean rms=0.261%, delta=0.222%, train=0.645%(1.714%), skip ratio=0%
+Iteration 95: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 11 (Perfect):
+Mean rms=0.261%, delta=0.22%, train=0.639%(1.696%), skip ratio=0%
+Iteration 96: GROUND  TRUTH : बहुत ठीक तौर पर हिंदुस्तानी ज़बान कहते हैं । वास्तविक बात तो यह है कि भारतवर्ष की
+Iteration 96: BEST OCR TEXT : बहुत ठीक तौर पर हिदुस्तानी ज़बान कहते हैं । वास्तविक बात तो यह है कि भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 12 (Perfect):
+Mean rms=0.261%, delta=0.218%, train=0.645%(1.739%), skip ratio=0%
+Iteration 97: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 12 (Perfect):
+Mean rms=0.26%, delta=0.216%, train=0.638%(1.721%), skip ratio=0%
+Iteration 98: GROUND  TRUTH : और मेल आरम्भ हो गया । और दोनों का वह सम्मिलित स्वरूप उत्पन्न हो गया जिसे हम
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 12 (Perfect):
+Mean rms=0.259%, delta=0.213%, train=0.632%(1.704%), skip ratio=0%
+Iteration 99: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 12 (Perfect):
+Mean rms=0.258%, delta=0.211%, train=0.625%(1.687%), skip ratio=0%
+2 Percent improvement time=23, best error was 100 @ 0
+At iteration 23/100/100, Mean rms=0.258%, delta=0.211%, char train=0.625%, word train=1.687%, skip ratio=0%,  New best char error = 0.625 Transitioned to stage 1 wrote best model:data/hinjaspreet1/checkpoints/hinjaspreet1Impact_0.625_23_100.checkpoint wrote checkpoint.
+
+Iteration 100: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 12 (Perfect):
+Mean rms=0.257%, delta=0.209%, train=0.619%(1.67%), skip ratio=0%
+Iteration 101: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 0 (Perfect):
+Mean rms=0.256%, delta=0.207%, train=0.613%(1.654%), skip ratio=0%
+Iteration 102: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 12 (Perfect):
+Mean rms=0.256%, delta=0.205%, train=0.607%(1.638%), skip ratio=0%
+Iteration 103: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 12 (Perfect):
+Mean rms=0.254%, delta=0.203%, train=0.601%(1.622%), skip ratio=0%
+Iteration 104: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 13 (Perfect):
+Mean rms=0.254%, delta=0.201%, train=0.596%(1.607%), skip ratio=0%
+Iteration 105: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 13 (Perfect):
+Mean rms=0.253%, delta=0.199%, train=0.59%(1.591%), skip ratio=0%
+Iteration 106: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 13 (Perfect):
+Mean rms=0.253%, delta=0.198%, train=0.585%(1.576%), skip ratio=0%
+Iteration 107: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 13 (Perfect):
+Mean rms=0.251%, delta=0.196%, train=0.579%(1.562%), skip ratio=0%
+Iteration 108: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 13 (Perfect):
+Mean rms=0.25%, delta=0.194%, train=0.574%(1.548%), skip ratio=0%
+Iteration 109: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 1 (Perfect):
+Mean rms=0.249%, delta=0.192%, train=0.569%(1.533%), skip ratio=0%
+Iteration 110: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 13 (Perfect):
+Mean rms=0.248%, delta=0.19%, train=0.563%(1.52%), skip ratio=0%
+Iteration 111: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 0 (Perfect):
+Mean rms=0.247%, delta=0.189%, train=0.558%(1.506%), skip ratio=0%
+Iteration 112: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 0 (Perfect):
+Mean rms=0.246%, delta=0.187%, train=0.553%(1.493%), skip ratio=0%
+Iteration 113: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 14 (Perfect):
+Mean rms=0.246%, delta=0.185%, train=0.549%(1.48%), skip ratio=0%
+Iteration 114: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+Iteration 114: BEST OCR TEXT : 1५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रुप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 14 :
+Mean rms=0.25%, delta=0.196%, train=0.585%(1.576%), skip ratio=0%
+Iteration 115: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 14 (Perfect):
+Mean rms=0.249%, delta=0.194%, train=0.58%(1.562%), skip ratio=0%
+Iteration 116: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 14 (Perfect):
+Mean rms=0.248%, delta=0.193%, train=0.575%(1.549%), skip ratio=0%
+Iteration 117: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 2 (Perfect):
+Mean rms=0.247%, delta=0.191%, train=0.57%(1.535%), skip ratio=0%
+Iteration 118: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 14 (Perfect):
+Mean rms=0.247%, delta=0.189%, train=0.565%(1.523%), skip ratio=0%
+Iteration 119: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 1 (Perfect):
+Mean rms=0.246%, delta=0.188%, train=0.56%(1.51%), skip ratio=0%
+Iteration 120: GROUND  TRUTH : आवश्यकताओं की पूर्ति नहीं कर सकीं और इसीलिए संयुक्त रूप में स्वयं ही उनका संयोग
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 1 (Perfect):
+Mean rms=0.245%, delta=0.186%, train=0.556%(1.497%), skip ratio=0%
+Iteration 121: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+Iteration 121: BEST OCR TEXT : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उदूं तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 15 :
+Mean rms=0.25%, delta=0.193%, train=0.581%(1.528%), skip ratio=0%
+Iteration 122: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 0 (Perfect):
+Mean rms=0.249%, delta=0.192%, train=0.577%(1.516%), skip ratio=0%
+Iteration 123: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+Iteration 123: BEST OCR TEXT : १० रें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 0 :
+Mean rms=0.25%, delta=0.192%, train=0.581%(1.548%), skip ratio=0%
+Iteration 124: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 0 (Perfect):
+Mean rms=0.249%, delta=0.191%, train=0.577%(1.536%), skip ratio=0%
+Iteration 125: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 3 (Perfect):
+Mean rms=0.248%, delta=0.189%, train=0.572%(1.524%), skip ratio=0%
+Iteration 126: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 0 (Perfect):
+Mean rms=0.247%, delta=0.188%, train=0.568%(1.512%), skip ratio=0%
+Iteration 127: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 2 (Perfect):
+Mean rms=0.247%, delta=0.186%, train=0.563%(1.5%), skip ratio=0%
+Iteration 128: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 2 (Perfect):
+Mean rms=0.245%, delta=0.185%, train=0.559%(1.488%), skip ratio=0%
+Iteration 129: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 0 (Perfect):
+Mean rms=0.245%, delta=0.183%, train=0.555%(1.477%), skip ratio=0%
+Iteration 130: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 1 (Perfect):
+Mean rms=0.244%, delta=0.182%, train=0.55%(1.466%), skip ratio=0%
+Iteration 131: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 1 (Perfect):
+Mean rms=0.243%, delta=0.181%, train=0.546%(1.455%), skip ratio=0%
+Iteration 132: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 1 (Perfect):
+Mean rms=0.243%, delta=0.179%, train=0.542%(1.444%), skip ratio=0%
+Iteration 133: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 4 (Perfect):
+Mean rms=0.241%, delta=0.178%, train=0.538%(1.433%), skip ratio=0%
+Iteration 134: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 1 (Perfect):
+Mean rms=0.242%, delta=0.177%, train=0.534%(1.422%), skip ratio=0%
+Iteration 135: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 3 (Perfect):
+Mean rms=0.241%, delta=0.175%, train=0.53%(1.412%), skip ratio=0%
+Iteration 136: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 3 (Perfect):
+Mean rms=0.241%, delta=0.174%, train=0.526%(1.401%), skip ratio=0%
+Iteration 137: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+Iteration 137: BEST OCR TEXT : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कृछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 1 :
+Mean rms=0.243%, delta=0.178%, train=0.54%(1.434%), skip ratio=0%
+Iteration 138: GROUND  TRUTH : मतलब न समझ सकें । हमारी राष्ट्रीय भाषा तो वही हो सकती है जिसका आधार सर्व-
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 2 (Perfect):
+Mean rms=0.242%, delta=0.177%, train=0.537%(1.424%), skip ratio=0%
+Iteration 139: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 2 (Perfect):
+Mean rms=0.241%, delta=0.175%, train=0.533%(1.413%), skip ratio=0%
+Iteration 140: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 2 (Perfect):
+Mean rms=0.24%, delta=0.174%, train=0.529%(1.403%), skip ratio=0%
+Iteration 141: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 5 (Perfect):
+Mean rms=0.239%, delta=0.173%, train=0.525%(1.394%), skip ratio=0%
+Iteration 142: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 2 (Perfect):
+Mean rms=0.24%, delta=0.172%, train=0.522%(1.384%), skip ratio=0%
+Iteration 143: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 4 (Perfect):
+Mean rms=0.239%, delta=0.17%, train=0.518%(1.374%), skip ratio=0%
+Iteration 144: GROUND  TRUTH : राष्ट्रीय भाषा न तो वह उर्दू ही हो सकती है जो अरबी और फारसी के अप्रचलित तथा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 4 (Perfect):
+Mean rms=0.238%, delta=0.169%, train=0.514%(1.365%), skip ratio=0%
+Iteration 145: GROUND  TRUTH : मतलब न समझ सकें । हमारी राष्ट्रीय भाषा तो वही हो सकती है जिसका आधार सर्व-
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 2 (Perfect):
+Mean rms=0.237%, delta=0.168%, train=0.511%(1.355%), skip ratio=0%
+Iteration 146: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 3 (Perfect):
+Mean rms=0.237%, delta=0.167%, train=0.507%(1.346%), skip ratio=0%
+Iteration 147: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 3 (Perfect):
+Mean rms=0.236%, delta=0.166%, train=0.504%(1.337%), skip ratio=0%
+Iteration 148: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 3 (Perfect):
+Mean rms=0.235%, delta=0.165%, train=0.501%(1.328%), skip ratio=0%
+Iteration 149: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 6 (Perfect):
+Mean rms=0.234%, delta=0.164%, train=0.497%(1.319%), skip ratio=0%
+Iteration 150: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 3 (Perfect):
+Mean rms=0.234%, delta=0.163%, train=0.494%(1.311%), skip ratio=0%
+Iteration 151: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 5 (Perfect):
+Mean rms=0.233%, delta=0.162%, train=0.491%(1.302%), skip ratio=0%
+Iteration 152: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 5 (Perfect):
+Mean rms=0.233%, delta=0.16%, train=0.487%(1.293%), skip ratio=0%
+Iteration 153: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 3 (Perfect):
+Mean rms=0.232%, delta=0.159%, train=0.484%(1.285%), skip ratio=0%
+Iteration 154: GROUND  TRUTH : बहुत ठीक तौर पर हिंदुस्तानी ज़बान कहते हैं । वास्तविक बात तो यह है कि भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 4 (Perfect):
+Mean rms=0.231%, delta=0.158%, train=0.481%(1.277%), skip ratio=0%
+Iteration 155: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 4 (Perfect):
+Mean rms=0.231%, delta=0.157%, train=0.478%(1.268%), skip ratio=0%
+Iteration 156: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 4 (Perfect):
+Mean rms=0.231%, delta=0.156%, train=0.475%(1.26%), skip ratio=0%
+Iteration 157: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 7 (Perfect):
+Mean rms=0.23%, delta=0.155%, train=0.472%(1.252%), skip ratio=0%
+Iteration 158: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 4 (Perfect):
+Mean rms=0.229%, delta=0.154%, train=0.469%(1.245%), skip ratio=0%
+Iteration 159: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 6 (Perfect):
+Mean rms=0.228%, delta=0.153%, train=0.466%(1.237%), skip ratio=0%
+Iteration 160: GROUND  TRUTH : २० अपरिचित शब्दों के भार से लदी रहती है और न वह हिंदी ही हो सकती है जो संस्कृत के
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 6 (Perfect):
+Mean rms=0.228%, delta=0.152%, train=0.463%(1.229%), skip ratio=0%
+Iteration 161: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 4 (Perfect):
+Mean rms=0.227%, delta=0.152%, train=0.46%(1.222%), skip ratio=0%
+Iteration 162: GROUND  TRUTH : आवश्यकताओं की पूर्ति नहीं कर सकीं और इसीलिए संयुक्त रूप में स्वयं ही उनका संयोग
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 5 (Perfect):
+Mean rms=0.228%, delta=0.151%, train=0.458%(1.214%), skip ratio=0%
+Iteration 163: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 5 (Perfect):
+Mean rms=0.227%, delta=0.15%, train=0.455%(1.207%), skip ratio=0%
+Iteration 164: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 5 (Perfect):
+Mean rms=0.226%, delta=0.149%, train=0.452%(1.199%), skip ratio=0%
+Iteration 165: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 8 (Perfect):
+Mean rms=0.225%, delta=0.148%, train=0.449%(1.192%), skip ratio=0%
+Iteration 166: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 5 (Perfect):
+Mean rms=0.225%, delta=0.147%, train=0.447%(1.185%), skip ratio=0%
+Iteration 167: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 7 (Perfect):
+Mean rms=0.225%, delta=0.146%, train=0.444%(1.178%), skip ratio=0%
+Iteration 168: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 7 (Perfect):
+Mean rms=0.225%, delta=0.145%, train=0.441%(1.171%), skip ratio=0%
+Iteration 169: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 5 (Perfect):
+Mean rms=0.224%, delta=0.144%, train=0.439%(1.164%), skip ratio=0%
+Iteration 170: GROUND  TRUTH : राष्ट्रीय भाषा न तो वह उर्दू ही हो सकती है जो अरबी और फारसी के अप्रचलित तथा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 6 (Perfect):
+Mean rms=0.224%, delta=0.144%, train=0.436%(1.157%), skip ratio=0%
+Iteration 171: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 6 (Perfect):
+Mean rms=0.223%, delta=0.143%, train=0.434%(1.15%), skip ratio=0%
+Iteration 172: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 6 (Perfect):
+Mean rms=0.223%, delta=0.142%, train=0.431%(1.144%), skip ratio=0%
+Iteration 173: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 9 (Perfect):
+Mean rms=0.222%, delta=0.141%, train=0.429%(1.137%), skip ratio=0%
+Iteration 174: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 6 :
+Mean rms=0.223%, delta=0.142%, train=0.426%(1.131%), skip ratio=0%
+Iteration 175: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 8 (Perfect):
+Mean rms=0.222%, delta=0.141%, train=0.424%(1.124%), skip ratio=0%
+Iteration 176: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 8 (Perfect):
+Mean rms=0.222%, delta=0.14%, train=0.421%(1.118%), skip ratio=0%
+Iteration 177: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 6 (Perfect):
+Mean rms=0.221%, delta=0.14%, train=0.419%(1.112%), skip ratio=0%
+Iteration 178: GROUND  TRUTH : २० अपरिचित शब्दों के भार से लदी रहती है और न वह हिंदी ही हो सकती है जो संस्कृत के
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 7 (Perfect):
+Mean rms=0.221%, delta=0.139%, train=0.417%(1.106%), skip ratio=0%
+Iteration 179: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 7 (Perfect):
+Mean rms=0.221%, delta=0.138%, train=0.414%(1.099%), skip ratio=0%
+Iteration 180: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 7 (Perfect):
+Mean rms=0.22%, delta=0.137%, train=0.412%(1.093%), skip ratio=0%
+Iteration 181: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+Iteration 181: BEST OCR TEXT : २५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 10 :
+Mean rms=0.221%, delta=0.14%, train=0.423%(1.118%), skip ratio=0%
+Iteration 182: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 7 (Perfect):
+Mean rms=0.221%, delta=0.139%, train=0.42%(1.112%), skip ratio=0%
+Iteration 183: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 9 (Perfect):
+Mean rms=0.22%, delta=0.138%, train=0.418%(1.106%), skip ratio=0%
+Iteration 184: GROUND  TRUTH : और मेल आरम्भ हो गया । और दोनों का वह सम्मिलित स्वरूप उत्पन्न हो गया जिसे हम
+Iteration 184: BEST OCR TEXT : और मेंल आरम्भ हो गया । और दोनों का वह सम्मिलित स्वरूप उत्पन्न हो गया जिसे हम
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 9 (Perfect):
+Mean rms=0.221%, delta=0.137%, train=0.423%(1.131%), skip ratio=0%
+Iteration 185: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 7 (Perfect):
+Mean rms=0.22%, delta=0.137%, train=0.421%(1.125%), skip ratio=0%
+Iteration 186: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 8 (Perfect):
+Mean rms=0.22%, delta=0.136%, train=0.419%(1.119%), skip ratio=0%
+Iteration 187: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 8 (Perfect):
+Mean rms=0.219%, delta=0.135%, train=0.416%(1.113%), skip ratio=0%
+Iteration 188: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 8 (Perfect):
+Mean rms=0.219%, delta=0.134%, train=0.414%(1.108%), skip ratio=0%
+Iteration 189: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 11 (Perfect):
+Mean rms=0.218%, delta=0.134%, train=0.412%(1.102%), skip ratio=0%
+Iteration 190: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 8 (Perfect):
+Mean rms=0.218%, delta=0.133%, train=0.41%(1.096%), skip ratio=0%
+Iteration 191: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 10 (Perfect):
+Mean rms=0.217%, delta=0.132%, train=0.408%(1.09%), skip ratio=0%
+Iteration 192: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 10 (Perfect):
+Mean rms=0.217%, delta=0.132%, train=0.406%(1.085%), skip ratio=0%
+Iteration 193: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 8 (Perfect):
+Mean rms=0.216%, delta=0.131%, train=0.403%(1.079%), skip ratio=0%
+Iteration 194: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 9 (Perfect):
+Mean rms=0.216%, delta=0.13%, train=0.401%(1.073%), skip ratio=0%
+Iteration 195: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 9 (Perfect):
+Mean rms=0.216%, delta=0.13%, train=0.399%(1.068%), skip ratio=0%
+Iteration 196: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 9 (Perfect):
+Mean rms=0.215%, delta=0.129%, train=0.397%(1.063%), skip ratio=0%
+Iteration 197: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 0 (Perfect):
+Mean rms=0.215%, delta=0.128%, train=0.395%(1.057%), skip ratio=0%
+Iteration 198: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 9 (Perfect):
+Mean rms=0.215%, delta=0.128%, train=0.393%(1.052%), skip ratio=0%
+Iteration 199: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 11 (Perfect):
+Mean rms=0.214%, delta=0.127%, train=0.391%(1.047%), skip ratio=0%
+2 Percent improvement time=29, best error was 100 @ 0
+At iteration 29/200/200, Mean rms=0.214%, delta=0.127%, char train=0.391%, word train=1.047%, skip ratio=0%,  New best char error = 0.391 wrote best model:data/hinjaspreet1/checkpoints/hinjaspreet1Impact_0.391_29_200.checkpoint wrote checkpoint.
+
+Iteration 200: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 11 (Perfect):
+Mean rms=0.213%, delta=0.126%, train=0.389%(1.041%), skip ratio=0%
+Iteration 201: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 9 (Perfect):
+Mean rms=0.213%, delta=0.126%, train=0.387%(1.036%), skip ratio=0%
+Iteration 202: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 10 (Perfect):
+Mean rms=0.213%, delta=0.125%, train=0.386%(1.031%), skip ratio=0%
+Iteration 203: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 10 (Perfect):
+Mean rms=0.213%, delta=0.125%, train=0.384%(1.026%), skip ratio=0%
+Iteration 204: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 10 (Perfect):
+Mean rms=0.212%, delta=0.124%, train=0.382%(1.021%), skip ratio=0%
+Iteration 205: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 1 (Perfect):
+Mean rms=0.212%, delta=0.123%, train=0.38%(1.016%), skip ratio=0%
+Iteration 206: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 10 (Perfect):
+Mean rms=0.212%, delta=0.123%, train=0.378%(1.011%), skip ratio=0%
+Iteration 207: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 12 (Perfect):
+Mean rms=0.211%, delta=0.122%, train=0.376%(1.006%), skip ratio=0%
+Iteration 208: GROUND  TRUTH : बहुत ठीक तौर पर हिंदुस्तानी ज़बान कहते हैं । वास्तविक बात तो यह है कि भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 12 (Perfect):
+Mean rms=0.211%, delta=0.122%, train=0.375%(1.002%), skip ratio=0%
+Iteration 209: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 10 (Perfect):
+Mean rms=0.21%, delta=0.121%, train=0.373%(0.997%), skip ratio=0%
+Iteration 210: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 11 (Perfect):
+Mean rms=0.21%, delta=0.12%, train=0.371%(0.992%), skip ratio=0%
+Iteration 211: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 11 (Perfect):
+Mean rms=0.21%, delta=0.12%, train=0.369%(0.987%), skip ratio=0%
+Iteration 212: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 11 (Perfect):
+Mean rms=0.209%, delta=0.119%, train=0.367%(0.983%), skip ratio=0%
+Iteration 213: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 2 (Perfect):
+Mean rms=0.209%, delta=0.119%, train=0.366%(0.978%), skip ratio=0%
+Iteration 214: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 11 (Perfect):
+Mean rms=0.209%, delta=0.118%, train=0.364%(0.974%), skip ratio=0%
+Iteration 215: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 0 (Perfect):
+Mean rms=0.208%, delta=0.118%, train=0.362%(0.969%), skip ratio=0%
+Iteration 216: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 13 (Perfect):
+Mean rms=0.208%, delta=0.117%, train=0.361%(0.965%), skip ratio=0%
+Iteration 217: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 11 (Perfect):
+Mean rms=0.208%, delta=0.117%, train=0.359%(0.96%), skip ratio=0%
+Iteration 218: GROUND  TRUTH : और मेल आरम्भ हो गया । और दोनों का वह सम्मिलित स्वरूप उत्पन्न हो गया जिसे हम
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 12 (Perfect):
+Mean rms=0.207%, delta=0.116%, train=0.357%(0.956%), skip ratio=0%
+Iteration 219: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 12 (Perfect):
+Mean rms=0.207%, delta=0.115%, train=0.356%(0.951%), skip ratio=0%
+Iteration 220: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 12 (Perfect):
+Mean rms=0.207%, delta=0.115%, train=0.354%(0.947%), skip ratio=0%
+Iteration 221: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 3 (Perfect):
+Mean rms=0.206%, delta=0.114%, train=0.353%(0.943%), skip ratio=0%
+Iteration 222: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 12 (Perfect):
+Mean rms=0.206%, delta=0.114%, train=0.351%(0.939%), skip ratio=0%
+Iteration 223: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 1 (Perfect):
+Mean rms=0.205%, delta=0.113%, train=0.349%(0.934%), skip ratio=0%
+Iteration 224: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 0 (Perfect):
+Mean rms=0.205%, delta=0.113%, train=0.348%(0.93%), skip ratio=0%
+Iteration 225: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 12 (Perfect):
+Mean rms=0.205%, delta=0.112%, train=0.346%(0.926%), skip ratio=0%
+Iteration 226: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 13 (Perfect):
+Mean rms=0.204%, delta=0.112%, train=0.345%(0.922%), skip ratio=0%
+Iteration 227: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 13 (Perfect):
+Mean rms=0.204%, delta=0.111%, train=0.343%(0.918%), skip ratio=0%
+Iteration 228: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 13 (Perfect):
+Mean rms=0.204%, delta=0.111%, train=0.342%(0.914%), skip ratio=0%
+Iteration 229: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 4 (Perfect):
+Mean rms=0.203%, delta=0.11%, train=0.34%(0.91%), skip ratio=0%
+Iteration 230: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 13 (Perfect):
+Mean rms=0.203%, delta=0.11%, train=0.339%(0.906%), skip ratio=0%
+Iteration 231: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 2 (Perfect):
+Mean rms=0.203%, delta=0.11%, train=0.337%(0.902%), skip ratio=0%
+Iteration 232: GROUND  TRUTH : आवश्यकताओं की पूर्ति नहीं कर सकीं और इसीलिए संयुक्त रूप में स्वयं ही उनका संयोग
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 1 (Perfect):
+Mean rms=0.202%, delta=0.109%, train=0.336%(0.898%), skip ratio=0%
+Iteration 233: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 13 (Perfect):
+Mean rms=0.202%, delta=0.109%, train=0.334%(0.895%), skip ratio=0%
+Iteration 234: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 14 (Perfect):
+Mean rms=0.202%, delta=0.108%, train=0.333%(0.891%), skip ratio=0%
+Iteration 235: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 14 (Perfect):
+Mean rms=0.202%, delta=0.108%, train=0.332%(0.887%), skip ratio=0%
+Iteration 236: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 14 (Perfect):
+Mean rms=0.202%, delta=0.107%, train=0.33%(0.883%), skip ratio=0%
+Iteration 237: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 5 (Perfect):
+Mean rms=0.201%, delta=0.107%, train=0.329%(0.88%), skip ratio=0%
+Iteration 238: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 14 (Perfect):
+Mean rms=0.201%, delta=0.106%, train=0.328%(0.876%), skip ratio=0%
+Iteration 239: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 3 (Perfect):
+Mean rms=0.201%, delta=0.106%, train=0.326%(0.872%), skip ratio=0%
+Iteration 240: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 2 (Perfect):
+Mean rms=0.201%, delta=0.105%, train=0.325%(0.869%), skip ratio=0%
+Iteration 241: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 14 (Perfect):
+Mean rms=0.201%, delta=0.105%, train=0.323%(0.865%), skip ratio=0%
+Iteration 242: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 0 (Perfect):
+Mean rms=0.2%, delta=0.105%, train=0.322%(0.861%), skip ratio=0%
+Iteration 243: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 0 (Perfect):
+Mean rms=0.2%, delta=0.104%, train=0.321%(0.858%), skip ratio=0%
+Iteration 244: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 0 (Perfect):
+Mean rms=0.2%, delta=0.104%, train=0.319%(0.854%), skip ratio=0%
+Iteration 245: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 6 (Perfect):
+Mean rms=0.199%, delta=0.103%, train=0.318%(0.851%), skip ratio=0%
+Iteration 246: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 0 (Perfect):
+Mean rms=0.199%, delta=0.103%, train=0.317%(0.847%), skip ratio=0%
+Iteration 247: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 4 (Perfect):
+Mean rms=0.199%, delta=0.102%, train=0.316%(0.844%), skip ratio=0%
+Iteration 248: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 3 (Perfect):
+Mean rms=0.198%, delta=0.102%, train=0.314%(0.841%), skip ratio=0%
+Iteration 249: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+Iteration 249: BEST OCR TEXT : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उदू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 15 :
+Mean rms=0.2%, delta=0.107%, train=0.323%(0.858%), skip ratio=0%
+Iteration 250: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 1 (Perfect):
+Mean rms=0.2%, delta=0.107%, train=0.322%(0.855%), skip ratio=0%
+Iteration 251: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 1 (Perfect):
+Mean rms=0.2%, delta=0.106%, train=0.32%(0.852%), skip ratio=0%
+Iteration 252: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 1 (Perfect):
+Mean rms=0.199%, delta=0.106%, train=0.319%(0.848%), skip ratio=0%
+Iteration 253: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 7 (Perfect):
+Mean rms=0.199%, delta=0.106%, train=0.318%(0.845%), skip ratio=0%
+Iteration 254: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 1 (Perfect):
+Mean rms=0.199%, delta=0.105%, train=0.317%(0.842%), skip ratio=0%
+Iteration 255: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 5 (Perfect):
+Mean rms=0.199%, delta=0.105%, train=0.315%(0.838%), skip ratio=0%
+Iteration 256: GROUND  TRUTH : राष्ट्रीय भाषा न तो वह उर्दू ही हो सकती है जो अरबी और फारसी के अप्रचलित तथा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 4 (Perfect):
+Mean rms=0.198%, delta=0.104%, train=0.314%(0.835%), skip ratio=0%
+Iteration 257: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 0 (Perfect):
+Mean rms=0.198%, delta=0.104%, train=0.313%(0.832%), skip ratio=0%
+Iteration 258: GROUND  TRUTH : मतलब न समझ सकें । हमारी राष्ट्रीय भाषा तो वही हो सकती है जिसका आधार सर्व-
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 2 (Perfect):
+Mean rms=0.198%, delta=0.103%, train=0.312%(0.829%), skip ratio=0%
+Iteration 259: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 2 (Perfect):
+Mean rms=0.198%, delta=0.103%, train=0.31%(0.825%), skip ratio=0%
+Iteration 260: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 2 (Perfect):
+Mean rms=0.197%, delta=0.103%, train=0.309%(0.822%), skip ratio=0%
+Iteration 261: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 8 (Perfect):
+Mean rms=0.197%, delta=0.102%, train=0.308%(0.819%), skip ratio=0%
+Iteration 262: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 2 (Perfect):
+Mean rms=0.197%, delta=0.102%, train=0.307%(0.816%), skip ratio=0%
+Iteration 263: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 6 (Perfect):
+Mean rms=0.197%, delta=0.102%, train=0.306%(0.813%), skip ratio=0%
+Iteration 264: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 5 (Perfect):
+Mean rms=0.197%, delta=0.101%, train=0.305%(0.81%), skip ratio=0%
+Iteration 265: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+Iteration 265: BEST OCR TEXT : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कृछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 1 :
+Mean rms=0.198%, delta=0.103%, train=0.313%(0.829%), skip ratio=0%
+Iteration 266: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 3 (Perfect):
+Mean rms=0.198%, delta=0.103%, train=0.312%(0.826%), skip ratio=0%
+Iteration 267: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 3 (Perfect):
+Mean rms=0.197%, delta=0.103%, train=0.31%(0.823%), skip ratio=0%
+Iteration 268: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 3 (Perfect):
+Mean rms=0.197%, delta=0.102%, train=0.309%(0.82%), skip ratio=0%
+Iteration 269: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 9 (Perfect):
+Mean rms=0.196%, delta=0.102%, train=0.308%(0.817%), skip ratio=0%
+Iteration 270: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 3 (Perfect):
+Mean rms=0.196%, delta=0.102%, train=0.307%(0.814%), skip ratio=0%
+Iteration 271: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 7 (Perfect):
+Mean rms=0.196%, delta=0.101%, train=0.306%(0.811%), skip ratio=0%
+Iteration 272: GROUND  TRUTH : २० अपरिचित शब्दों के भार से लदी रहती है और न वह हिंदी ही हो सकती है जो संस्कृत के
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 6 (Perfect):
+Mean rms=0.196%, delta=0.101%, train=0.305%(0.808%), skip ratio=0%
+Iteration 273: GROUND  TRUTH : मतलब न समझ सकें । हमारी राष्ट्रीय भाषा तो वही हो सकती है जिसका आधार सर्व-
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 2 (Perfect):
+Mean rms=0.195%, delta=0.1%, train=0.304%(0.805%), skip ratio=0%
+Iteration 274: GROUND  TRUTH : बहुत ठीक तौर पर हिंदुस्तानी ज़बान कहते हैं । वास्तविक बात तो यह है कि भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 4 (Perfect):
+Mean rms=0.195%, delta=0.1%, train=0.303%(0.802%), skip ratio=0%
+Iteration 275: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 4 (Perfect):
+Mean rms=0.195%, delta=0.1%, train=0.301%(0.799%), skip ratio=0%
+Iteration 276: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 4 (Perfect):
+Mean rms=0.195%, delta=0.099%, train=0.3%(0.796%), skip ratio=0%
+Iteration 277: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 10 (Perfect):
+Mean rms=0.195%, delta=0.099%, train=0.299%(0.793%), skip ratio=0%
+Iteration 278: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 4 (Perfect):
+Mean rms=0.195%, delta=0.099%, train=0.298%(0.79%), skip ratio=0%
+Iteration 279: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 8 (Perfect):
+Mean rms=0.194%, delta=0.098%, train=0.297%(0.787%), skip ratio=0%
+Iteration 280: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 7 (Perfect):
+Mean rms=0.195%, delta=0.098%, train=0.296%(0.785%), skip ratio=0%
+Iteration 281: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 3 (Perfect):
+Mean rms=0.195%, delta=0.098%, train=0.295%(0.782%), skip ratio=0%
+Iteration 282: GROUND  TRUTH : आवश्यकताओं की पूर्ति नहीं कर सकीं और इसीलिए संयुक्त रूप में स्वयं ही उनका संयोग
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 5 (Perfect):
+Mean rms=0.195%, delta=0.097%, train=0.294%(0.779%), skip ratio=0%
+Iteration 283: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 5 (Perfect):
+Mean rms=0.194%, delta=0.097%, train=0.293%(0.776%), skip ratio=0%
+Iteration 284: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 5 (Perfect):
+Mean rms=0.194%, delta=0.097%, train=0.292%(0.774%), skip ratio=0%
+Iteration 285: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 11 (Perfect):
+Mean rms=0.194%, delta=0.096%, train=0.291%(0.771%), skip ratio=0%
+Iteration 286: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 5 (Perfect):
+Mean rms=0.194%, delta=0.096%, train=0.29%(0.768%), skip ratio=0%
+Iteration 287: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 9 (Perfect):
+Mean rms=0.193%, delta=0.096%, train=0.289%(0.766%), skip ratio=0%
+Iteration 288: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 8 (Perfect):
+Mean rms=0.193%, delta=0.095%, train=0.288%(0.763%), skip ratio=0%
+Iteration 289: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 4 (Perfect):
+Mean rms=0.193%, delta=0.095%, train=0.287%(0.76%), skip ratio=0%
+Iteration 290: GROUND  TRUTH : राष्ट्रीय भाषा न तो वह उर्दू ही हो सकती है जो अरबी और फारसी के अप्रचलित तथा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 6 (Perfect):
+Mean rms=0.193%, delta=0.095%, train=0.286%(0.758%), skip ratio=0%
+Iteration 291: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 6 (Perfect):
+Mean rms=0.192%, delta=0.094%, train=0.285%(0.755%), skip ratio=0%
+Iteration 292: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 6 (Perfect):
+Mean rms=0.192%, delta=0.094%, train=0.284%(0.752%), skip ratio=0%
+Iteration 293: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 0 (Perfect):
+Mean rms=0.192%, delta=0.094%, train=0.283%(0.75%), skip ratio=0%
+Iteration 294: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 6 (Perfect):
+Mean rms=0.192%, delta=0.093%, train=0.282%(0.747%), skip ratio=0%
+Iteration 295: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 10 (Perfect):
+Mean rms=0.191%, delta=0.093%, train=0.281%(0.745%), skip ratio=0%
+Iteration 296: GROUND  TRUTH : और मेल आरम्भ हो गया । और दोनों का वह सम्मिलित स्वरूप उत्पन्न हो गया जिसे हम
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 9 (Perfect):
+Mean rms=0.191%, delta=0.093%, train=0.28%(0.742%), skip ratio=0%
+Iteration 297: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 5 (Perfect):
+Mean rms=0.191%, delta=0.092%, train=0.279%(0.74%), skip ratio=0%
+Iteration 298: GROUND  TRUTH : २० अपरिचित शब्दों के भार से लदी रहती है और न वह हिंदी ही हो सकती है जो संस्कृत के
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 7 (Perfect):
+Mean rms=0.191%, delta=0.092%, train=0.278%(0.737%), skip ratio=0%
+Iteration 299: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 7 (Perfect):
+Mean rms=0.191%, delta=0.092%, train=0.277%(0.735%), skip ratio=0%
+2 Percent improvement time=31, best error was 100 @ 0
+At iteration 31/300/300, Mean rms=0.191%, delta=0.092%, char train=0.277%, word train=0.735%, skip ratio=0%,  New best char error = 0.277 wrote best model:data/hinjaspreet1/checkpoints/hinjaspreet1Impact_0.277_31_300.checkpoint wrote checkpoint.
+
+Iteration 300: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 7 (Perfect):
+Mean rms=0.19%, delta=0.091%, train=0.276%(0.732%), skip ratio=0%
+Iteration 301: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 1 (Perfect):
+Mean rms=0.19%, delta=0.091%, train=0.276%(0.73%), skip ratio=0%
+Iteration 302: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 7 (Perfect):
+Mean rms=0.19%, delta=0.091%, train=0.275%(0.728%), skip ratio=0%
+Iteration 303: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 11 (Perfect):
+Mean rms=0.189%, delta=0.091%, train=0.274%(0.725%), skip ratio=0%
+Iteration 304: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 10 (Perfect):
+Mean rms=0.189%, delta=0.09%, train=0.273%(0.723%), skip ratio=0%
+Iteration 305: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 6 (Perfect):
+Mean rms=0.189%, delta=0.09%, train=0.272%(0.72%), skip ratio=0%
+Iteration 306: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 8 (Perfect):
+Mean rms=0.189%, delta=0.09%, train=0.271%(0.718%), skip ratio=0%
+Iteration 307: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 8 (Perfect):
+Mean rms=0.188%, delta=0.089%, train=0.27%(0.716%), skip ratio=0%
+Iteration 308: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 8 (Perfect):
+Mean rms=0.188%, delta=0.089%, train=0.269%(0.713%), skip ratio=0%
+Iteration 309: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 2 (Perfect):
+Mean rms=0.188%, delta=0.089%, train=0.268%(0.711%), skip ratio=0%
+Iteration 310: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 8 (Perfect):
+Mean rms=0.188%, delta=0.088%, train=0.268%(0.709%), skip ratio=0%
+Iteration 311: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 12 (Perfect):
+Mean rms=0.187%, delta=0.088%, train=0.267%(0.707%), skip ratio=0%
+Iteration 312: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 11 (Perfect):
+Mean rms=0.187%, delta=0.088%, train=0.266%(0.704%), skip ratio=0%
+Iteration 313: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 7 (Perfect):
+Mean rms=0.187%, delta=0.088%, train=0.265%(0.702%), skip ratio=0%
+Iteration 314: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 9 (Perfect):
+Mean rms=0.187%, delta=0.087%, train=0.264%(0.7%), skip ratio=0%
+Iteration 315: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 9 (Perfect):
+Mean rms=0.187%, delta=0.087%, train=0.263%(0.698%), skip ratio=0%
+Iteration 316: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 9 (Perfect):
+Mean rms=0.186%, delta=0.087%, train=0.262%(0.695%), skip ratio=0%
+Iteration 317: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 3 (Perfect):
+Mean rms=0.186%, delta=0.087%, train=0.262%(0.693%), skip ratio=0%
+Iteration 318: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 9 (Perfect):
+Mean rms=0.186%, delta=0.086%, train=0.261%(0.691%), skip ratio=0%
+Iteration 319: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 0 (Perfect):
+Mean rms=0.186%, delta=0.086%, train=0.26%(0.689%), skip ratio=0%
+Iteration 320: GROUND  TRUTH : बहुत ठीक तौर पर हिंदुस्तानी ज़बान कहते हैं । वास्तविक बात तो यह है कि भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 12 (Perfect):
+Mean rms=0.185%, delta=0.086%, train=0.259%(0.687%), skip ratio=0%
+Iteration 321: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 8 (Perfect):
+Mean rms=0.185%, delta=0.085%, train=0.258%(0.685%), skip ratio=0%
+Iteration 322: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 10 (Perfect):
+Mean rms=0.185%, delta=0.085%, train=0.258%(0.683%), skip ratio=0%
+Iteration 323: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 10 (Perfect):
+Mean rms=0.185%, delta=0.085%, train=0.257%(0.68%), skip ratio=0%
+Iteration 324: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 10 (Perfect):
+Mean rms=0.185%, delta=0.085%, train=0.256%(0.678%), skip ratio=0%
+Iteration 325: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 4 (Perfect):
+Mean rms=0.184%, delta=0.084%, train=0.255%(0.676%), skip ratio=0%
+Iteration 326: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 10 (Perfect):
+Mean rms=0.184%, delta=0.084%, train=0.254%(0.674%), skip ratio=0%
+Iteration 327: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 1 (Perfect):
+Mean rms=0.184%, delta=0.084%, train=0.254%(0.672%), skip ratio=0%
+Iteration 328: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 13 (Perfect):
+Mean rms=0.184%, delta=0.084%, train=0.253%(0.67%), skip ratio=0%
+Iteration 329: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 9 (Perfect):
+Mean rms=0.184%, delta=0.083%, train=0.252%(0.668%), skip ratio=0%
+Iteration 330: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 11 (Perfect):
+Mean rms=0.184%, delta=0.083%, train=0.251%(0.666%), skip ratio=0%
+Iteration 331: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 11 (Perfect):
+Mean rms=0.184%, delta=0.083%, train=0.251%(0.664%), skip ratio=0%
+Iteration 332: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 11 (Perfect):
+Mean rms=0.183%, delta=0.083%, train=0.25%(0.662%), skip ratio=0%
+Iteration 333: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 5 (Perfect):
+Mean rms=0.183%, delta=0.082%, train=0.249%(0.66%), skip ratio=0%
+Iteration 334: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 11 (Perfect):
+Mean rms=0.183%, delta=0.082%, train=0.248%(0.658%), skip ratio=0%
+Iteration 335: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 2 (Perfect):
+Mean rms=0.183%, delta=0.082%, train=0.248%(0.656%), skip ratio=0%
+Iteration 336: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 0 (Perfect):
+Mean rms=0.183%, delta=0.082%, train=0.247%(0.654%), skip ratio=0%
+Iteration 337: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 10 (Perfect):
+Mean rms=0.183%, delta=0.081%, train=0.246%(0.652%), skip ratio=0%
+Iteration 338: GROUND  TRUTH : और मेल आरम्भ हो गया । और दोनों का वह सम्मिलित स्वरूप उत्पन्न हो गया जिसे हम
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 12 (Perfect):
+Mean rms=0.182%, delta=0.081%, train=0.245%(0.65%), skip ratio=0%
+Iteration 339: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 12 (Perfect):
+Mean rms=0.182%, delta=0.081%, train=0.245%(0.648%), skip ratio=0%
+Iteration 340: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 12 (Perfect):
+Mean rms=0.182%, delta=0.081%, train=0.244%(0.647%), skip ratio=0%
+Iteration 341: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 6 (Perfect):
+Mean rms=0.182%, delta=0.08%, train=0.243%(0.645%), skip ratio=0%
+Iteration 342: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 12 (Perfect):
+Mean rms=0.182%, delta=0.08%, train=0.243%(0.643%), skip ratio=0%
+Iteration 343: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 3 (Perfect):
+Mean rms=0.182%, delta=0.08%, train=0.242%(0.641%), skip ratio=0%
+Iteration 344: GROUND  TRUTH : आवश्यकताओं की पूर्ति नहीं कर सकीं और इसीलिए संयुक्त रूप में स्वयं ही उनका संयोग
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 1 (Perfect):
+Mean rms=0.182%, delta=0.08%, train=0.241%(0.639%), skip ratio=0%
+Iteration 345: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 11 (Perfect):
+Mean rms=0.181%, delta=0.08%, train=0.24%(0.637%), skip ratio=0%
+Iteration 346: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 13 (Perfect):
+Mean rms=0.181%, delta=0.079%, train=0.24%(0.635%), skip ratio=0%
+Iteration 347: GROUND  TRUTH : प्रकार की चिंता नहीं है । उन्हें अधिकार है कि वे अपने अंदर चाहे जितनी संस्कृत, अरबी या
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 13 (Perfect):
+Mean rms=0.181%, delta=0.079%, train=0.239%(0.634%), skip ratio=0%
+Iteration 348: GROUND  TRUTH : देश में ऐसे आदमियों की संख्या कम नहीं है जो उर्दू और हिंदी की अलग अलग और स्वतंत्र
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 13 (Perfect):
+Mean rms=0.181%, delta=0.079%, train=0.238%(0.632%), skip ratio=0%
+Iteration 349: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 7 (Perfect):
+Mean rms=0.181%, delta=0.079%, train=0.238%(0.63%), skip ratio=0%
+Iteration 350: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 13 (Perfect):
+Mean rms=0.18%, delta=0.078%, train=0.237%(0.628%), skip ratio=0%
+Iteration 351: GROUND  TRUTH : भाषा अँगरेजी, जापान की जापानी, ईरान की ईरानी और चीन की चीनी है, उसी प्रकार
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 4 (Perfect):
+Mean rms=0.18%, delta=0.078%, train=0.236%(0.626%), skip ratio=0%
+Iteration 352: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 2 (Perfect):
+Mean rms=0.18%, delta=0.078%, train=0.236%(0.625%), skip ratio=0%
+Iteration 353: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 12 (Perfect):
+Mean rms=0.18%, delta=0.078%, train=0.235%(0.623%), skip ratio=0%
+Iteration 354: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 14 (Perfect):
+Mean rms=0.18%, delta=0.078%, train=0.234%(0.621%), skip ratio=0%
+Iteration 355: GROUND  TRUTH : उसी प्रकार का सम्बंध है । उनकी यह प्रवृत्ति हम किसी शक्ति से रोक नहीं सकते । फिर इन
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 14 (Perfect):
+Mean rms=0.18%, delta=0.077%, train=0.234%(0.619%), skip ratio=0%
+Iteration 356: GROUND  TRUTH : १५ राष्ट्रीय भाषा कहलाने का दावा करती हैं । परंतु वे अपने व्यक्तिगत रूप में राष्ट्रीय
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 14 (Perfect):
+Mean rms=0.18%, delta=0.077%, train=0.233%(0.618%), skip ratio=0%
+Iteration 357: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 8 (Perfect):
+Mean rms=0.179%, delta=0.077%, train=0.232%(0.616%), skip ratio=0%
+Iteration 358: GROUND  TRUTH : दोनों को आपस में मिलाने का प्रयत्न करके हम क्यों व्यर्थ इन दोनों को हानि पहुँचावें ?
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 14 (Perfect):
+Mean rms=0.179%, delta=0.077%, train=0.232%(0.614%), skip ratio=0%
+Iteration 359: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 5 (Perfect):
+Mean rms=0.179%, delta=0.076%, train=0.231%(0.612%), skip ratio=0%
+Iteration 360: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 3 (Perfect):
+Mean rms=0.179%, delta=0.076%, train=0.231%(0.611%), skip ratio=0%
+Iteration 361: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 13 (Perfect):
+Mean rms=0.179%, delta=0.076%, train=0.23%(0.609%), skip ratio=0%
+Iteration 362: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 0 (Perfect):
+Mean rms=0.179%, delta=0.076%, train=0.229%(0.607%), skip ratio=0%
+Iteration 363: GROUND  TRUTH : १० रखें तो हमें इनकी प्राकृतिक वृद्धि और विकास के सम्बंध में कोई आपत्ति न हो । बँगला,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 0 (Perfect):
+Mean rms=0.178%, delta=0.076%, train=0.229%(0.606%), skip ratio=0%
+Iteration 364: GROUND  TRUTH : यदि उर्दू और हिंदी दोनों अपने आपको अपने जन्म स्थान और प्रचार क्षेत्र तक ही परिमित
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 0 (Perfect):
+Mean rms=0.178%, delta=0.075%, train=0.228%(0.604%), skip ratio=0%
+Iteration 365: GROUND  TRUTH : महाराष्ट्रीय और गजराती सभी सम्मिलित हैं । यदि कोई शब्द या मुहावरा या पारिभाषिक
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 9 (Perfect):
+Mean rms=0.178%, delta=0.075%, train=0.227%(0.602%), skip ratio=0%
+Iteration 366: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 0 (Perfect):
+Mean rms=0.178%, delta=0.075%, train=0.227%(0.601%), skip ratio=0%
+Iteration 367: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 6 (Perfect):
+Mean rms=0.178%, delta=0.075%, train=0.226%(0.599%), skip ratio=0%
+Iteration 368: GROUND  TRUTH : राष्ट्रीय भाषा न तो वह उर्दू ही हो सकती है जो अरबी और फारसी के अप्रचलित तथा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 4 (Perfect):
+Mean rms=0.177%, delta=0.075%, train=0.226%(0.597%), skip ratio=0%
+Iteration 369: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 14 (Perfect):
+Mean rms=0.177%, delta=0.074%, train=0.225%(0.596%), skip ratio=0%
+Iteration 370: GROUND  TRUTH : कठिन शब्दों से लदी हुई होती है । यदि इन दोनों भाषाओं के पक्षपाती और समर्थक आमने
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 1 (Perfect):
+Mean rms=0.177%, delta=0.074%, train=0.224%(0.594%), skip ratio=0%
+Iteration 371: GROUND  TRUTH : उन्नति और विकास के मार्ग में बाधक नहीं होना चाहते । उन्होंने यह मान लिया है कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 1 (Perfect):
+Mean rms=0.177%, delta=0.074%, train=0.224%(0.593%), skip ratio=0%
+Iteration 372: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 1 (Perfect):
+Mean rms=0.177%, delta=0.074%, train=0.223%(0.591%), skip ratio=0%
+Iteration 373: GROUND  TRUTH : ३५ जा सकता, जब तक हम हिंदुस्तान को उर्दूस्तान न कहने लगें, जो अब किसी प्रकार सम्भव ही
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 10 (Perfect):
+Mean rms=0.177%, delta=0.074%, train=0.222%(0.589%), skip ratio=0%
+Iteration 374: GROUND  TRUTH : मराठी, गुजराती, तमिल, तेलगु और कन्नड आदि प्रांतीय भाषाओं के सम्बंध में हमें किसी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 1 (Perfect):
+Mean rms=0.177%, delta=0.073%, train=0.222%(0.588%), skip ratio=0%
+Iteration 375: GROUND  TRUTH : आवश्यक भी है । और अगर इस देश को हिंदुस्तान न कह कर केवल हिंद कहें तो इसकी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 7 (Perfect):
+Mean rms=0.177%, delta=0.073%, train=0.221%(0.586%), skip ratio=0%
+Iteration 376: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 5 (Perfect):
+Mean rms=0.176%, delta=0.073%, train=0.221%(0.585%), skip ratio=0%
+Iteration 377: GROUND  TRUTH : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उर्दू तो किसी प्रकार कहा ही नहीं
+Iteration 377: BEST OCR TEXT : भाषा को हिंदी कह सकते हैं । लेकिन यहाँ की भाषा को उददू तो किसी प्रकार कहा ही नहीं
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 15 :
+Mean rms=0.177%, delta=0.074%, train=0.23%(0.597%), skip ratio=0%
+Iteration 378: GROUND  TRUTH : मतलब न समझ सकें । हमारी राष्ट्रीय भाषा तो वही हो सकती है जिसका आधार सर्व-
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 2 (Perfect):
+Mean rms=0.177%, delta=0.074%, train=0.229%(0.596%), skip ratio=0%
+Iteration 379: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 2 (Perfect):
+Mean rms=0.177%, delta=0.073%, train=0.229%(0.594%), skip ratio=0%
+Iteration 380: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 2 (Perfect):
+Mean rms=0.176%, delta=0.073%, train=0.228%(0.592%), skip ratio=0%
+Iteration 381: GROUND  TRUTH : संस्कृत का है ? वह तो केवल यह मानदंड अपने सामने रखती है कि जनसाधारण यह शब्द
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 11 (Perfect):
+Mean rms=0.176%, delta=0.073%, train=0.227%(0.591%), skip ratio=0%
+Iteration 382: GROUND  TRUTH : आरम्भ में इन दोनों के स्वरूपों में चाहे जो कृछ एकता और समानता रही हो, लेकिन फिर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 2 (Perfect):
+Mean rms=0.176%, delta=0.073%, train=0.227%(0.589%), skip ratio=0%
+Iteration 383: GROUND  TRUTH : शब्द जनसाधारण में प्रचलित है तो फिर वह इस बात की परवाह नहीं करती कि वह कहाँ से
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 8 (Perfect):
+Mean rms=0.176%, delta=0.073%, train=0.226%(0.588%), skip ratio=0%
+Iteration 384: GROUND  TRUTH : २० अपरिचित शब्दों के भार से लदी रहती है और न वह हिंदी ही हो सकती है जो संस्कृत के
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 6 (Perfect):
+Mean rms=0.176%, delta=0.072%, train=0.226%(0.586%), skip ratio=0%
+Iteration 385: GROUND  TRUTH : ३० निकला है और कहाँ से आया है । और यही हिंदुस्तानी है । और जिस प्रकार अँगरेजों की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 0 (Perfect):
+Mean rms=0.176%, delta=0.072%, train=0.225%(0.585%), skip ratio=0%
+Iteration 386: GROUND  TRUTH : सामान्य बोधगम्यता हो - जिसे सब लोग सहज में समझ सकें । वह इस बात की क्यों परवाह
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 3 (Perfect):
+Mean rms=0.176%, delta=0.072%, train=0.224%(0.583%), skip ratio=0%
+Iteration 387: GROUND  TRUTH : लैटिन आदि भरती चलें । उन भाषाओं के लेखक आदि स्वयं ही इस बात का निर्णय कर
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 3 (Perfect):
+Mean rms=0.175%, delta=0.072%, train=0.224%(0.582%), skip ratio=0%
+Iteration 388: GROUND  TRUTH : सकते हैं ; परन्तु उर्दू और हिन्दी की बात इन सबसे अलग है । यहाँ तो दोनों ही भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 3 (Perfect):
+Mean rms=0.175%, delta=0.072%, train=0.223%(0.58%), skip ratio=0%
+Iteration 389: GROUND  TRUTH : २५ करने लगी कि अमुक शब्द इसलिए छोड़ दिया जाना चाहिए कि वह फ़ारसी, अरबी अथवा
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 0 (Perfect):
+Mean rms=0.175%, delta=0.071%, train=0.223%(0.579%), skip ratio=0%
+Iteration 390: GROUND  TRUTH : भी इस समय दोनों की दोनों जिस रास्ते पर जा रही हैं, उसे देखते हुए इन दोनों में मेल और
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 3 (Perfect):
+Mean rms=0.175%, delta=0.071%, train=0.222%(0.577%), skip ratio=0%
+Iteration 391: GROUND  TRUTH : हिंदुस्तान की राष्ट्रीय भाषा को इसी तौर पर हिंदुस्तानी कहना केवल उचित ही नहीं, बल्कि
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 9 (Perfect):
+Mean rms=0.175%, delta=0.071%, train=0.222%(0.576%), skip ratio=0%
+Iteration 392: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf line 7 (Perfect):
+Mean rms=0.175%, delta=0.071%, train=0.221%(0.574%), skip ratio=0%
+Iteration 393: GROUND  TRUTH : सामने खड़े हो कर अपनी साहित्यिक भाषाओं में बातें करें तो शायद एक दूसरे का कुछ भी
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf line 1 (Perfect):
+Mean rms=0.175%, delta=0.071%, train=0.22%(0.573%), skip ratio=0%
+Iteration 394: GROUND  TRUTH : बहुत ठीक तौर पर हिंदुस्तानी ज़बान कहते हैं । वास्तविक बात तो यह है कि भारतवर्ष की
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf line 4 (Perfect):
+Mean rms=0.175%, delta=0.071%, train=0.22%(0.571%), skip ratio=0%
+Iteration 395: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf line 4 (Perfect):
+Mean rms=0.175%, delta=0.07%, train=0.219%(0.57%), skip ratio=0%
+Iteration 396: GROUND  TRUTH : ५ एकता होना असम्भव ही है । प्रत्येक भाषा की एक प्राकृतिक प्रवृत्ति होती है । उर्दू का
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf line 4 (Perfect):
+Mean rms=0.175%, delta=0.07%, train=0.219%(0.569%), skip ratio=0%
+Iteration 397: GROUND  TRUTH : नहीं है । प्राचीन काल के लोग यहाँ की भाषा को हिंदी ही कहते थे ।
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf line 1 (Perfect):
+Mean rms=0.174%, delta=0.07%, train=0.218%(0.567%), skip ratio=0%
+Iteration 398: GROUND  TRUTH : फ़ारसी और अरबी के साथ स्वाभाविक सम्बंध है । और हिंदी का संस्कृत तथा प्राकृत के साथ
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf line 4 (Perfect):
+Mean rms=0.174%, delta=0.07%, train=0.218%(0.566%), skip ratio=0%
+Iteration 399: GROUND  TRUTH : समझ सकते हैं या नहीं ? और जनसाधारण में हिंदू, मुसलमान, पंजाबी, बंगाली,
+File /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf line 10 (Perfect):
+Mean rms=0.174%, delta=0.07%, train=0.217%(0.564%), skip ratio=0%
+2 Percent improvement time=32, best error was 100 @ 0
+At iteration 32/400/400, Mean rms=0.174%, delta=0.07%, char train=0.217%, word train=0.564%, skip ratio=0%,  New best char error = 0.217 wrote best model:data/hinjaspreet1/checkpoints/hinjaspreet1Impact_0.217_32_400.checkpoint wrote checkpoint.
+
+Finished! Error rate = 0.217
+Loaded file data/hinjaspreet1/checkpoints/hinjaspreet1Impact_checkpoint, unpacking...
+Version string:4.00.00alpha:Devanagari:synth20170629test
+
+0:config:size=552, offset=192
+17:lstm:size=11040731, offset=744
+18:lstm-punc-dawg:size=5210, offset=11041475
+19:lstm-word-dawg:size=17494186, offset=11046685
+20:lstm-number-dawg:size=5098, offset=28540871
+21:lstm-unicharset:size=13692, offset=28545969
+22:lstm-recoder:size=1957, offset=28559661
+23:version:size=42, offset=28561618
+Loaded file data/hinjaspreet1/checkpoints/hinjaspreet1Impact_checkpoint, unpacking...
+Loaded file data/hinjaspreet1/checkpoints/hinjaspreet1Impact_checkpoint, unpacking...
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf
+Loaded 16/16 lines (1-16) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf
+Loaded 12/12 lines (1-12) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf
+Loaded 13/13 lines (1-13) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample8.lstmf
+At iteration 0, stage 0, Eval Char error rate=1.3114632, Word error rate=4.003367
+real 130.19
+user 129.96
+sys 0.22
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf
+Loaded 16/16 lines (1-16) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf
+Loaded 12/12 lines (1-12) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf
+Loaded 13/13 lines (1-13) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample8.lstmf
+At iteration 0, stage 0, Eval Char error rate=1.7447785, Word error rate=3.5978507
+real 136.18
+user 135.97
+sys 0.21
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf
+Loaded 16/16 lines (1-16) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf
+Loaded 12/12 lines (1-12) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf
+Loaded 13/13 lines (1-13) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample8.lstmf
+At iteration 0, stage 0, Eval Char error rate=0, Word error rate=0
+real 130.38
+user 130.13
+sys 0.25
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample5.lstmf
+Loaded 16/16 lines (1-16) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample3.lstmf
+Warning: LSTMTrainer deserialized an LSTMRecognizer!
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample2.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample4.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample7.lstmf
+Loaded 12/12 lines (1-12) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample6.lstmf
+Loaded 15/15 lines (1-15) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample1.lstmf
+Loaded 13/13 lines (1-13) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample9.lstmf
+Loaded 14/14 lines (1-14) of document /home/ubuntu/tesstrain-hindi/jaspreet1/sample8.lstmf
+At iteration 0, stage 0, Eval Char error rate=0, Word error rate=0
+real 32.53
+user 32.32
+sys 0.20
+ubuntu@tesseract-ocr:~/tesstrain-hindi$
